@@ -89,7 +89,7 @@ func (t *SimpleAsset) set(stub shim.ChaincodeStubInterface, args []string) peer.
 		logger.Error("Error occured while calling PutState(): ", err)
 		return shim.Error("Failed to set asset: " + args[0])
 	}
-	fmt.Println("invoke returning " , args[1])
+	fmt.Println("invoke returning ",args[1])
 	return shim.Success([]byte(args[0] + ":" + args[1]))
 }
 
