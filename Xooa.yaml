@@ -29,3 +29,9 @@ Apps:
     path: /zapier/smartcontract/
     language: go
     README: https://github.com/Xooa/samples/blob/master/zapier/README.md
+  Xooa-Get-Set-Delay:
+    Name: Get-Set-Delay
+    Description: Xooa Get Set Smart Contract with 5 seconds delay
+    path: /get-set-delay/smartcontract
+    language: go
+    README: https://github.com/Xooa/samples/blob/master/get-set-delay/README.md  
