@@ -2,7 +2,7 @@
 
 This repository contains the get-set smart contract.  Deploy the smart contract via the Xooa console, refer to  <https://github.com/Xooa/samples/blob/master/README.md> to get started, deploying **Xooa-get-set** from this repository.
 
-Here, we'll show you how to invoke a smart contract and write data to the blockchain with a delay of 5 seconds and how to retrieve that data.
+Here, we'll show you how to invoke a smart contract and write data to the blockchain with a delay of 1 second and how to retrieve that data.
 
 **Project documentation:** <https://docs.xooa.com>
 ___

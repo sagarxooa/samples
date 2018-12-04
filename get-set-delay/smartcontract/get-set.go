@@ -78,8 +78,8 @@ func (t *SimpleAsset) getVersion(stub shim.ChaincodeStubInterface) peer.Response
 // it will override the value with the new one
 func (t *SimpleAsset) set(stub shim.ChaincodeStubInterface, args []string) peer.Response {
 	logger.Debug("set() called.")
-	logger.Debug("Going in sleep for 5 seconds")
-	time.Sleep(5*time.Second)
+	logger.Debug("Going in sleep for 1 second")
+	time.Sleep(1*time.Second)
 
 	if len(args) != 2 {
 		logger.Error("Incorrect number of arguments passed in set.")
