@@ -34,4 +34,10 @@ Apps:
     Description: Xooa Get Set Smart Contract with 1 second delay
     path: /get-set-delay/smartcontract
     language: go
-    README: https://github.com/Xooa/samples/blob/master/get-set-delay/README.md  
+    README: https://github.com/Xooa/samples/blob/master/get-set-delay/README.md
+  Xooa-Get-Set-Long-Data:
+    Name: Xooa-Long-Data
+    Description: Xooa Get Set Smart Contract
+    path: /get-Set-Long-Data-Returning/smartcontract
+    language: go
+    README: https://github.com/Xooa/samples/blob/master/get-Set-Long-Data-Returning/README.md
